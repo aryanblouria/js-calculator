@@ -53,3 +53,8 @@ body {
 .calculator-grid button:hover {
   background-color: whitesmoke;
 }
+
+.calculator-grid button:active {
+  box-shadow: 0 0.5px whitesmoke;
+  transform: translateX(0.5px) translateY(0.5px);
+}
